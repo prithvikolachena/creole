@@ -29,15 +29,15 @@ const App = () => {
 
     if(username == "admin" && password == "pass"){
           <Customer />
-          console.log('logged in as admin')
+          alert('logged in as admin')
           
       
     }else if(username == "customer" && password == "passed"){
-      console.log('logged in as customer');
+      alert('logged in as customer');
     }else if(username == "manager" && password == "passing") {
-      console.log('logged in as manager');
+      alert('logged in as manager');
     } else {
-      console.log('Not Authorized');
+      alert('Not Authorized');
     }
 
    }
